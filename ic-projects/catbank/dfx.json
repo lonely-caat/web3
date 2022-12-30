@@ -1,0 +1,35 @@
+{
+  "canisters": {
+    "catbank": {
+      "main": "src/catbank/main.mo",
+      "type": "motoko"
+    },
+    "catbank_assets": {
+      "dependencies": [
+        "catbank"
+      ],
+      "frontend": {
+        "entrypoint": "src/catbank_assets/src/index.html"
+      },
+      "source": [
+        "src/catbank_assets/assets",
+        "dist/catbank_assets/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "dfx": "0.9.3",
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    }
+  },
+  "version": 1
+}
