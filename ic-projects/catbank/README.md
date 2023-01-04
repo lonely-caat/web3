@@ -1,24 +1,19 @@
-# catbank
+# Cat bank! 
+  A bank for all your cat needs! Written in motoko and plain js to help you top up and withdraw your balance as well as count compound interest which will    pertain throughout time without the need of a persistant storage db. how neat!
+<img width="361" alt="Screenshot 2022-12-30 at 3 57 32 PM" src="https://user-images.githubusercontent.com/33058683/210085523-70225e23-0a7b-4fcf-97e3-19116830052f.png">
 
-Welcome to your new catbank project and to the internet computer development community. By default, creating a new project adds this README and some template files to your project directory. You can edit these template files to customize your project and to include your own code to speed up the development cycle.
 
-To get started, you might want to explore the project directory structure and the default configuration file. Working with this project in your development environment will not affect any production deployment or identity tokens.
-
-To learn more before you start working with catbank, see the following documentation available online:
-
-- [Quick Start](https://sdk.dfinity.org/docs/quickstart/quickstart-intro.html)
-- [SDK Developer Tools](https://sdk.dfinity.org/docs/developers-guide/sdk-guide.html)
-- [Motoko Programming Language Guide](https://sdk.dfinity.org/docs/language-guide/motoko.html)
-- [Motoko Language Quick Reference](https://sdk.dfinity.org/docs/language-guide/language-manual.html)
-- [JavaScript API Reference](https://erxue-5aaaa-aaaab-qaagq-cai.raw.ic0.app)
-
-If you want to start working on your project right away, you might want to try the following commands:
-
+to run: 
 ```bash
-cd catbank/
-dfx help
-dfx config --help
+
+- dfx start (in separate tab)
+- npm install
+- dfx deploy
+- npm start
+( to get to CandidUI dfx canister id __Candid_UI - and go to http://127.0.0.1:8000/?canisterId=$that canister id)
 ```
+
+
 
 ## Running the project locally
 
