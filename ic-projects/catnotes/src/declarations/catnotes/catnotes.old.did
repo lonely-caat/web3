@@ -1,0 +1,3 @@
+service : {
+  newNote: (text, text) -> () oneway;
+}
