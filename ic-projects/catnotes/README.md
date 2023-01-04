@@ -2,6 +2,9 @@
 
 This is a solution to [Udemy React challenge](https://www.udemy.com/course/the-complete-web-development-bootcamp/) hooked up onto ICP with motoko backend for persistent notes instead of using a external storage DB. And it's a 100% not a blatant theft of Google Notes. 
 
+<img width="1514" alt="Screenshot 2023-01-04 at 10 07 15 AM" src="https://user-images.githubusercontent.com/33058683/210523672-496830cc-423c-4ccb-8552-281844f2f890.png">
+
+
 
 to run: 
 ```bash
