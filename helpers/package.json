@@ -1,0 +1,11 @@
+{
+  "name": "helpers",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@elrondnetwork/erdjs": "^11.1.2",
+    "@elrondnetwork/erdjs-walletcore": "^2.1.0"
+  }
+}
